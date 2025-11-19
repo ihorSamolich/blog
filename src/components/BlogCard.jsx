@@ -10,7 +10,7 @@ export default function BlogCard({ image, category, title, description, author }
                 <h2 className="blog-card__title">{title}</h2>
                 <p className="blog-card__description">{description}</p>
                 <div className="blog-card__author">
-                    <img src='/assets/images/avatar-femail.png' alt={author} />
+                    <img src='/blog/assets/images/avatar-femail.png' alt={author} />
                     <span>{author}</span>
                 </div>
             </div>
